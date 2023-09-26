@@ -1,0 +1,28 @@
+Installation Instructions for Texas Hold'em Poker Program
+=========================================================
+
+1. Prerequisites:
+   - Make sure you have a C compiler (such as GCC) installed on your system.
+   - Make sure you have Make utility installed on your system.
+   - Make sure you have a network connection.
+   - Make sure you have X11 forwarding software such as Xming installed on your system.
+
+2. Download the Source Code:
+   - Download and extract the project source code to a directory of your choice.
+   - For the developer: Type 'gtar -xvzf Poker_V1.0_src.tar.gz', then 'cd Poker_V1.0_src'.
+   - For the user: Type 'gtar -xvzf Poker_V1.0.tar.gz', then 'cd Poker_V1.0'.
+
+3. Compilation:
+   - Open a terminal/command prompt and navigate to the root directory of the program.
+   - Run the following command to compile the source code: `make`. This command will generate an executable file named 'poker' and 'server' in the 'bin' folder.
+
+4. Testing the Program:
+   - To test the program with a graphical interface, run the following command: `make test-gui`.
+   - To test the program with a graphical interface, run the following command: `make test-comm`.
+
+5. Cleaning Up:
+   - To remove the generated object files (*.o) and the executable, run the following command: `make clean`.
+
+6. Creating a Source Code Tarball:
+   - To create a tarball of the source code files (*.c and *.h) located in the 'src' folder, run the following command: `make tar`. This will create a file named 'poker_source_code.tar.gz' in the 'src' folder.
+
