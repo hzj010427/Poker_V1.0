@@ -11,11 +11,6 @@ The current player will be marked as red
 
 Authors
 -------
-- Yongye Li
-- Mary Campbell
-- Arjun Sivakumar
-- Joseph Principe
-- Cristian Pina Bravo
 - Zijie Huang
 
 Version
